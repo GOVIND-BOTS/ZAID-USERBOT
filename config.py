@@ -13,7 +13,7 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5348648456").split()))
 OWNER_ID = int(getenv("OWNER_ID", "6099950428"
 MONGO_URL = getenv("MONGO_URL","mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority"
 BOT_TOKEN = getenv("BOT_TOKEN", "6032040315:AAFyBtAEBGf3RDgl-DjSiQUejFexmeDDnDI")
-ALIVE_PIC = getenv("ALIVE_PIC", 'https://te.legra.ph/file/e372173f24fbdfdb73154.jpg')
+ALIVE_PIC = getenv("ALIVE_PIC", 'https://te.legra.ph/file/f49043ee43b5f4b96b697.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT", '👑Official Account🖤
 
 💟Wish Me On 20 Dec 🎂
