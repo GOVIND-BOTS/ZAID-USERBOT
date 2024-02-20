@@ -11,7 +11,7 @@ API_HASH = getenv("API_HASH", "cb93e76ed8e78c8081f52cd3aa66f08b") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5348648456").split()))
 OWNER_ID = int(getenv("OWNER_ID", "6099950428"
-MONGO_URL = getenv("MONGO_URL","mongodb+srv://sagar121:sagar121@sagar1.ql1togl.mongodb.net/?retryWrites=true&w=majority"
+MONGO_URL = getenv("MONGO_URL", "mongodb+srv://sagar121:sagar121@sagar1.ql1togl.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "6032040315:AAFyBtAEBGf3RDgl-DjSiQUejFexmeDDnDI")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://te.legra.ph/file/f49043ee43b5f4b96b697.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT", '👑Official Account😊
